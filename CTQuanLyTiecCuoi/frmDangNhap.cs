@@ -18,7 +18,7 @@ namespace CTQuanLyTiecCuoi
             InitializeComponent();
         }
         //Data Source=DESKTOP-4N48QA4\SQLEXPRESS;Initial Catalog=QUANLYTIECCUOI;Integrated Security=True;
-        //string strcnn = "Data Source=DESKTOP-90K2CL6\\THANHHUNG;Initial Catalog=QUANLYTIECCUOI;Integrated Security=True";
+     
         //tạo kết nối cục bộ với cơ sở dữ liệu
         string strcnn = System.Configuration.ConfigurationManager.ConnectionStrings["qlnhtc"].ConnectionString;
         public static int IDTaiKhoan;
